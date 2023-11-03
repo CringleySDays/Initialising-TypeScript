@@ -21,6 +21,7 @@
     "test": "mocha ./build/src/**/*.js && mocha ./build/src/commands/**/*.js && mocha ./build/src/handlers/**/*.js",
     "build": "tsc",
     "start": "node build/src/index.js",
+    "dev:install": "yarn install",
     "dev": "yarn run build && NODE_ENV=dev yarn run start",
     "prod": "yarn run build && NODE_ENV=prod yarn run start",
     "prod:install": "yarn install --production"
