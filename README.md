@@ -8,7 +8,7 @@ for starting new TypeScript projects.
 - First initialise your project via `yarn` | `npm` | `bun`: `yarn innit` for example
 
 - Copy each of the code in the files and add it in your project ensuring you remain consistent with the file
-naming. For `package.json` follow the next step.
+naming. For `[package.json](https://github.com/CringleySDays/TypeScript-Typing/blob/main/package.json)` follow the next step.
 
 - Copy the required arguments and paste it in `package.json` file. You shouldn't remove the title, description
 and so on.
