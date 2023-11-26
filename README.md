@@ -16,3 +16,7 @@ and so on.
 - Finally, in the terminal run `yarn run dev:install` and voila you've configured your TypeScript project
 successfully!
 
+## Need additional asisstant?
+
+- Open an [Issue](https://github.com/CringleySDays/TypeScript-Typing/issues)
+
