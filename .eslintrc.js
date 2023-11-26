@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/naming-convention */
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
 
@@ -34,5 +35,6 @@ module.exports = {
     "no-unused-vars": "off",
     quotes: ["error", "double"],
     semi: ["error", "always"],
+    "@typescript-eslint/naming-convention": "error"
   },
 };
