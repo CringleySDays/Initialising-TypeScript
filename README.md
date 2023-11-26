@@ -24,5 +24,5 @@ successfully!
 - If you want to add additional dependencies, once again open an [issue](https://github.com/CringleySDays/TypeScript-Typing/issues
 
 
-## Happy Coding!
+Happy Coding!
 
