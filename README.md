@@ -18,5 +18,5 @@ successfully!
 
 ## Need additional assistant?
 
-- Open an [Issue](https://github.com/CringleySDays/TypeScript-Typing/issues) and thoroughly explain it 😄!
+- Open an [Issue](https://github.com/CringleySDays/TypeScript-Typing/issues) and thoroughly explain it! 😄
 
