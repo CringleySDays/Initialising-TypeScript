@@ -5,7 +5,7 @@ for starting new TypeScript projects.
 
 ## How to get Started?
 
-- First initialise your project via `yarn` | `npm` | `bun`. `yarn innit` for example
+- First initialise your project via `yarn` | `npm` | `bun`: `yarn innit` for example
 
 - Copy each of the code in the files and add it in your project. For `package.json` follow the next
 step
