@@ -13,6 +13,6 @@ step
 - Copy the required arguments and paste it in `package.json` file. You shouldn't remove the title, description
 and so on.
 
-- Finally, run in the terminal `yarn run dev:install` and voila you've configured your TypeScript project
+- Finally, in the terminal run `yarn run dev:install` and voila you've configured your TypeScript project
 successfully!
 
