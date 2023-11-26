@@ -1,7 +1,7 @@
 # TypeScript-Typing
 
 This is a repository to make things easier when installing modules and getting necessary tools configured
-for starting new TypeScript projects. 
+for starting new TypeScript projects. This gets updated everytime I find something new that'll help
 
 ## How to get Started?
 
@@ -19,5 +19,10 @@ successfully!
 
 ## Need additional assistant?
 
-- Open an [Issue](https://github.com/CringleySDays/TypeScript-Typing/issues) and thoroughly explain it! 😄
+- Open an [issue](https://github.com/CringleySDays/TypeScript-Typing/issues) and thoroughly explain it! 😄
+
+- If you want to add additional dependencies, once again open an [issue](https://github.com/CringleySDays/TypeScript-Typing/issues
+
+
+## Happy Coding!
 
