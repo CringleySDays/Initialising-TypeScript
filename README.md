@@ -21,7 +21,7 @@ successfully!
 
 - Open an [issue](https://github.com/CringleySDays/TypeScript-Typing/issues) and thoroughly explain it! 😄
 
-- If you want to add additional dependencies, once again open an [issue](https://github.com/CringleySDays/TypeScript-Typing/issues
+- If you want to add additional dependencies, once again open an [issue](https://github.com/CringleySDays/TypeScript-Typing/issues)
 
 --------
 Happy Coding!
