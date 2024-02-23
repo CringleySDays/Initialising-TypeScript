@@ -1,7 +1,7 @@
 # Initialising-TypeScript
 
 This is a repository to make things easier when installing modules and getting necessary tools configured
-for starting new TypeScript projects. This gets updated everytime I find something new that'll help
+for starting a new TypeScript project. This gets updated everytime I find something new that'll help
 
 ## How to get Started?
 
@@ -14,7 +14,7 @@ the next step.
 - Copy the required arguments and paste it in your `package.json` file. You shouldn't remove the title, description
 and so on.
 
-- Finally, in the terminal run `yarn run dev:install` and voila you've configured your TypeScript project
+- Finally, in the terminal run `yarn run dev:install` and voila you've configured your new TypeScript project
 successfully!
 
 ## Need additional assistant?
