@@ -1,4 +1,4 @@
-# TypeScript-Typing
+# Initialising-TypeScript
 
 This is a repository to make things easier when installing modules and getting necessary tools configured
 for starting new TypeScript projects. This gets updated everytime I find something new that'll help
