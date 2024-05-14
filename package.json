@@ -7,7 +7,8 @@
     "dev": "yarn run build && NODE_ENV=dev yarn run start",
     "prod:install": "yarn install --production",
     "dev:upgrade": "yarn upgrade",
-    "prod:upgrade": "yarn upgrade --production"
+    "prod:upgrade": "yarn upgrade --production",
+    "uninstall": "rm -r node_modules/ && rm -r package-lock.json"
   },
   "dependencies": {
     "@prisma/client": "^5.5.2",
