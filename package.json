@@ -3,11 +3,13 @@
     "test": "mocha ./build/src/**/*.js && mocha ./build/src/commands/**/*.js && mocha ./build/src/handlers/discord-events/**/*js && mocha ./build/src/handlers/**/*js && mocha ./build/src/handlers/discord-interaction",
     "build": "tsc",
     "start": "node build/src/index.js",
-    "dev:install": "yarn install",
-    "dev": "yarn run build && NODE_ENV=dev yarn run start",
-    "prod:install": "yarn install --production",
-    "dev:upgrade": "yarn upgrade",
-    "prod:upgrade": "yarn upgrade --production"
+    "dev:install": "npm install",
+    "prod": "npm run build && NODE_ENV=prod npm run start",
+    "dev": "npm run build && NODE_ENV=dev npm run start",
+    "prod:install": "npm install --omit dev",
+    "dev:upgrade": "npm upgrade",
+    "prod:upgrade": "npm upgrade --omit dev",
+    "uninstall": "rm -r node_modules/ && rm -r package-lock.json"
   },
   "dependencies": {
     "@prisma/client": "^5.5.2",
