@@ -7,7 +7,7 @@ I highly recommend you follow the instructions to avoid any errors and confusion
   
 - First initialise your project via `npm init` and fill out the necessary details.
 
-- Copy the [tsconfig.json](https://github.com/CringleySDays/Initialising-TypeScript/blob/nodejs-main/tsconfig.json), [.eslintrc.js](https://github.com/CringleySDays/Initialising-TypeScript/blob/nodejs-main/.eslintrc.js), [.prettierrc.js](https://github.com/CringleySDays/Initialising-TypeScript/blob/nodejs-main/.prettierrc.js), [.gitignore](https://github.com/CringleySDays/Initialising-TypeScript/blob/nodejs-main/.gitignore), and [.bash](https://github.com/CringleySDays/Initialising-TypeScript/blob/nodejs-main/.bash) files and add them to your project.
+- Download the [tsconfig.json](https://github.com/CringleySDays/Initialising-TypeScript/blob/nodejs-main/tsconfig.json), [.eslintrc.js](https://github.com/CringleySDays/Initialising-TypeScript/blob/nodejs-main/.eslintrc.js), [.prettierrc.js](https://github.com/CringleySDays/Initialising-TypeScript/blob/nodejs-main/.prettierrc.js), [.gitignore](https://github.com/CringleySDays/Initialising-TypeScript/blob/nodejs-main/.gitignore), and [.bash](https://github.com/CringleySDays/Initialising-TypeScript/blob/nodejs-main/.bash) files and add them to your project.
 
 - Modify your package.json file by adding the contents from [package.json](https://github.com/CringleySDays/Initialising-TypeScript/blob/nodejs-main/package.json) file. Specifically, transfer the scripts,
 dependencies, and devDependencies from the [source](https://github.com/CringleySDays/Initialising-TypeScript/blob/nodejs-main/package.json) file into the corresponding sections of your package.json file.
