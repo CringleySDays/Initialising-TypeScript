@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "mocha ./build/src/**/*.js && mocha ./build/src/commands/**/*.js && mocha ./build/src/handlers/discord-events/**/*js && mocha ./build/src/handlers/**/*js && mocha ./build/src/handlers/discord-interaction",
+    "test": "mocha ./build/src/*.js",
     "build": "tsc",
     "start": "node build/src/index.js",
     "dev:install": "npm install",
