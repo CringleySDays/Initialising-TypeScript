@@ -2,12 +2,14 @@
   "scripts": {
     "test": "mocha ./build/src/*.js",
     "build": "tsc",
-    "start": "node build/src/index.js",
-    "dev:install": "yarn install",
-    "dev": "yarn run build && NODE_ENV=dev yarn run start",
-    "prod:install": "yarn install --production",
-    "dev:upgrade": "yarn upgrade",
-    "prod:upgrade": "yarn upgrade --production"
+    "start": "bun build/src/index.js",
+    "dev:install": "bun install",
+    "prod:install": "bun install --production",
+    "prod": "bun run build && NODE_ENV=prod bun run start",
+    "dev": "bun run build && NODE_ENV=dev bun run start",
+    "dev:upgrade": "bun update",
+    "prod:upgrade": "rm -r node_modules/ && rm -r bun.lockb && bun run prod:install",
+    "uninstall": "rm -r node_modules/ && rm -r package-lock.json"
   },
   "dependencies": {
     "@types/bun": "latest",
