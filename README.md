@@ -7,7 +7,7 @@ to start a new TypeScript project. This will get regular updates everything that
 
 - First, choose the type of runtime that you would want to use for your project such as: [Node](https://github.com/CringleySDays/Initialising-TypeScript/tree/nodejs-main), [Bun](https://github.com/CringleySDays/Initialising-TypeScript/tree/yarn-main) or [Yarn](https://github.com/CringleySDays/Initialising-TypeScript/tree/yarn-main)
   
-- Follow the steps in the [instructions.md](https://github.com/CringleySDays/Initialising-TypeScript/blob/bun-main/README.md)
+- Follow the steps in the [instructions.md](https://github.com/CringleySDays/Initialising-TypeScript/blob/bun-main/INSTRUCTIONS.md)
 
 ## Need additional assistant?
 
