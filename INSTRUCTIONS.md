@@ -1,19 +1,13 @@
-# Setting up your TypeScript Project
+# Initialising-TypeScript
 
-You'll find instructions on how to configure your projects, edit and include files and information.
-I highly recommend you follow the instructions to avoid any errors and confusion.
+This is a repository to make things easier when installing modules and getting necessary tools configured
+to start a new TypeScript project. This will get regular updates everything that I find new tools.
 
 ## How to get Started?
+
+- First, choose the type of runtime that you would want to use for your project such as: [Node](https://github.com/CringleySDays/Initialising-TypeScript/tree/nodejs-main), [Bun](https://github.com/CringleySDays/Initialising-TypeScript/tree/yarn-main) or [Yarn](https://github.com/CringleySDays/Initialising-TypeScript/tree/yarn-main)
   
-- First initialise your project via `bun init` and fill out the necessary details.
-
-- Download the [tsconfig.json](https://github.com/CringleySDays/Initialising-TypeScript/blob/bun-main/tsconfig.json), [.eslintrc.js](https://github.com/CringleySDays/Initialising-TypeScript/blob/bun-main/.eslintrc.js), [.prettierrc.js](https://github.com/CringleySDays/Initialising-TypeScript/blob/bun-main/.prettierrc.js), [.gitignore](https://github.com/CringleySDays/Initialising-TypeScript/blob/bun-main/.gitignore), and [.bash](https://github.com/CringleySDays/Initialising-TypeScript/blob/bun-main/.bash) files and add them to your project.
-
-- Modify your package.json file by adding the contents from [package.json](https://github.com/CringleySDays/Initialising-TypeScript/blob/bun-main/package.json) file. Specifically, transfer the scripts,
-dependencies, and devDependencies from the [source](https://github.com/CringleySDays/Initialising-TypeScript/blob/bun-main/package.json) file into the corresponding sections of your package.json file.
-
-- Finally, in the terminal run `bun run dev:install` and voila you've configured your new TypeScript project
-successfully!
+- Follow the steps in the [instructions.md](https://github.com/CringleySDays/Initialising-TypeScript/blob/bun-main/INSTRUCTIONS.md)
 
 ## Need additional assistant?
 
