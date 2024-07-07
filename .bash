@@ -1,3 +1,5 @@
+#!/bin/bash
+
 developmentType=$1
 developmentArg=$2
 
@@ -5,8 +7,8 @@ red="\033[0;31m"
 green="\033[0;32m"
 colourless="\033[0m"
 
-if [ [$developmentArg != "install"] ] && [ [$developmentArg != "upgrade"] ] && [ [$developmentArg != "dev"] ] && [ [$developmentArg != "prod"] ]; then
-    echo -e "${red}Invalid. ${colourless}Please use ${green}install${colourless}, ${green}upgrade${colourless}, ${green}dev ${colourless}or ${green}prod."
+if [[ $developmentArg != "install" && $developmentArg != "upgrade" && $developmentArg != "dev" && $developmentArg != "prod" ]]; then
+    echo "Invalid. Please use 'install', 'upgrade', 'dev', or 'prod'."
     exit 0
 fi
 
